@@ -26,11 +26,29 @@ Route::get('/about', function () {
 	$about=['This','is','Laravel'];
    return view('about', compact('about'));
 });
+Route::get('/aero', function () {
+   return view('aero');
+});
+Route::get('/calendar', function () {
+   return view('calendar');
+});
+Route::get('/clock', function () {
+   return view('clock');
+});
 Route::get('/datepicker', function () {
    return view('datepicker');
 });
+Route::get('/diagram', function () {
+   return view('diagram');
+});
+Route::get('/editor', function () {
+   return view('editor');
+});
 Route::get('/grid', function () {
    return view('grid');
+});
+Route::get('/panel', function () {
+   return view('panel');
 });
 Route::get('/treeview', function () {
    return view('treeview');

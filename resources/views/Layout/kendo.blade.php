@@ -18,9 +18,15 @@
         <div id="megaStore">
 			<ul id="menu">
 				<li><a href="{{ url('/')}}">Home</a></li>
+                <li><a href="{{ url('/aero')}}">Aero</a></li>
                 <li><a href="{{ url('/courosel')}}">Courosel</a></li>
+                <li><a href="{{ url('/calendar')}}">Calendar</a></li>
+                <li><a href="{{ url('/clock')}}">Clock</a></li>
 				<li><a href="{{ url('/datepicker')}}">Datepicker</a></li>
+                <li><a href="{{ url('/diagram')}}">Diagram</a></li>
+                <li><a href="{{ url('/editor')}}">Editor</a></li>
 				<li><a href="{{ url('/grid')}}">Grid</a></li>
+                <li><a href="{{ url('/panel')}}">Panel</a></li>
 				<li><a href="{{ url('/treeview')}}">Treeview</a></li>
 				<li><a href="{{ url('/tabstrip')}}">Tabstrip</a></li>
                 <li><a href="{{ url('/chart')}}">chart</a></li>
